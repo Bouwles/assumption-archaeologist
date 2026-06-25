@@ -1,0 +1,8 @@
+node_modules/
+*.tmp
+.assumptions-findings*.json
+.DS_Store
+
+# other tools' caches
+.impeccable/
+.comment-rot/

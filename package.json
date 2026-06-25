@@ -1,0 +1,17 @@
+{
+  "name": "assumption-archaeologist",
+  "version": "0.1.0",
+  "description": "Claude Code plugin that surfaces load-bearing implicit assumptions in code into a living ASSUMPTIONS.md.",
+  "main": "src/index.js",
+  "bin": {
+    "assumptions": "src/index.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": ["claude-code", "plugin", "assumptions", "documentation", "code-quality", "technical-debt"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}

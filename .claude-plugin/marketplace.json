@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "assumption-archaeologist",
+  "description": "Assumption Archaeologist — finds implicit, load-bearing assumptions baked into code and surfaces them as a living ASSUMPTIONS.md.",
+  "owner": {
+    "name": "Paul Nercessian"
+  },
+  "plugins": [
+    {
+      "name": "assumptions",
+      "description": "Finds load-bearing implicit assumptions that were never written down and records them in a living ASSUMPTIONS.md with stable IDs and a status lifecycle. Provides /assumptions:search and /assumptions:verify. Command-driven — never auto-runs.",
+      "source": "./",
+      "category": "code-quality",
+      "tags": ["assumptions", "documentation", "code-quality", "technical-debt", "static-analysis"]
+    }
+  ]
+}

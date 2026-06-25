@@ -1,0 +1,9 @@
+{
+  "name": "assumptions",
+  "version": "0.1.0",
+  "description": "Assumption Archaeologist — surfaces load-bearing implicit assumptions baked into code (\"always UTC\", \"already sorted\", \"user is authenticated here\") into a living ASSUMPTIONS.md with stable IDs and a status lifecycle. Command-driven only; never runs automatically, so it never spends tokens unless you ask.",
+  "author": {
+    "name": "Paul Nercessian"
+  },
+  "keywords": ["assumptions", "documentation", "code-quality", "static-analysis", "technical-debt", "claude-code"]
+}
