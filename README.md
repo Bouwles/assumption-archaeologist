@@ -77,9 +77,3 @@ node src/index.js merge --input findings.json   # add/refresh entries
 node src/index.js list --json                    # dump current entries
 node src/index.js set-status --id AA-xxxx --status addressed
 ```
-
-## Test
-
-```
-npm test
-```
